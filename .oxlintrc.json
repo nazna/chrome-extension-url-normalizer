@@ -1,0 +1,11 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["typescript", "oxc"],
+  "rules": {
+    "eqeqeq": ["error", "always", { "null": "ignore" }],
+    "no-debugger": "error",
+    "typescript/no-floating-promises": "error",
+    "typescript/no-namespace": "off",
+    "import/no-cycle": "error"
+  }
+}

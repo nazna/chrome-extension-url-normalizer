@@ -1,0 +1,24 @@
+{
+  "name": "chrome-extension-url-normalizer",
+  "version": "0.0.1",
+  "private": true,
+  "description": "URL normalizer for Google Chrome",
+  "license": "UNLICENSED",
+  "author": "nazna <naznagg@gmail.com> (https://nazna.dev)",
+  "type": "module",
+  "scripts": {
+    "build": "zip url-normalizer.zip ./manifest.json ./rulesets.json",
+    "lint": "oxlint",
+    "format": "oxfmt",
+    "bump": "npx npm-check-updates --upgrade --cooldown 3"
+  },
+  "devDependencies": {
+    "bumpp": "10.4.1",
+    "oxfmt": "0.35.0",
+    "oxlint": "1.50.0"
+  },
+  "engines": {
+    "node": "25.x",
+    "npm": "11.x"
+  }
+}
