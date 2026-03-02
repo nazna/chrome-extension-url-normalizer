@@ -7,7 +7,16 @@
       "redirect": {
         "transform": {
           "queryTransform": {
-            "removeParams": ["srsltid", "th"]
+            "removeParams": [
+              "srsltid",
+              "th",
+              "utm_source",
+              "utm_medium",
+              "utm_campaign",
+              "utm_term",
+              "utm_content",
+              "fbclid"
+            ]
           }
         }
       }

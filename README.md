@@ -2,12 +2,6 @@
 
 > URL normalizer for Google Chrome
 
-## How to release
-
-```sh
-$ npm run release
-```
-
 ## How to use
 
 1. Download the zipped extension from [GitHub Releases](https://github.com/nazna/chrome-extension-url-normalizer/releases)
@@ -15,12 +9,6 @@ $ npm run release
 3. Move the extracted directory to some one
 4. Open [chrome://extensions](chrome://extensions)
 5. Load the extension directory
-
-## Notes
-
-- srsltidを削除する
-- thもいらない
-- oxlint, oxfmtの設定見直す
 
 ## References
 
